@@ -1,0 +1,17 @@
+/* styles/sweetalert2-custom.css */
+.my-swal {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.my-swal .swal2-title {
+    color: #ffffff;
+}
+
+.my-swal .swal2-icon.swal2-success .swal2-success-ring {
+    border-color: #a5c600;
+}
+
+.my-swal .swal2-icon.swal2-success [class^='swal2-success-line'] {
+    background-color: #a5c600;
+}

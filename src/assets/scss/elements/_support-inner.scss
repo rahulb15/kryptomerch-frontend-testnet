@@ -1,0 +1,194 @@
+.kryptomerch_articlePage {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #16160d, #525234);
+    color: #fff;
+    padding: 2rem;
+  }
+  
+  .kryptomerch_breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+    animation: fadeInDown 0.6s ease-out;
+  }
+  
+  .kryptomerch_breadcrumbLink {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .kryptomerch_breadcrumbLink:hover {
+    color: #ff69b4;
+  }
+  
+  .kryptomerch_breadcrumbSeparator {
+    color: rgba(255, 255, 255, 0.4);
+    margin: 0 0.5rem;
+  }
+  
+  .kryptomerch_articleContent {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    animation: fadeIn 0.6s ease-out;
+  }
+  
+  .kryptomerch_articleTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(45deg, #ff69b4, #9f7aea);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .kryptomerch_articleBody {
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.8;
+    font-size: 1.1rem;
+  }
+  
+  .kryptomerch_articleBody h2 {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem;
+  }
+  
+  .kryptomerch_articleBody p {
+    margin-bottom: 1rem;
+  }
+  
+  .kryptomerch_articleBody ul, 
+  .kryptomerch_articleBody ol {
+    margin: 1rem 0;
+    padding-left: 2rem;
+  }
+  
+  .kryptomerch_feedbackSection {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    animation: fadeInUp 0.6s ease-out;
+  }
+  
+  .kryptomerch_feedbackTitle {
+    font-size: 1.25rem;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  
+  .kryptomerch_feedbackButtons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .kryptomerch_button {
+    padding: 0.75rem 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    border-radius: 42px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .kryptomerch_button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #ff69b4;
+    transform: translateY(-2px);
+  }
+  
+  .kryptomerch_relatedSection {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 2rem;
+    animation: fadeInUp 0.6s ease-out;
+  }
+  
+  .kryptomerch_relatedTitle {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(45deg, #ff69b4, #9f7aea);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .kryptomerch_relatedList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .kryptomerch_relatedLink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 42px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  .kryptomerch_relatedLink:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #ff69b4;
+    transform: translateX(4px);
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .kryptomerch_articlePage {
+      padding: 1rem;
+    }
+    
+    .kryptomerch_articleTitle {
+      font-size: 1.75rem;
+    }
+    
+    .kryptomerch_articleContent,
+    .kryptomerch_feedbackSection,
+    .kryptomerch_relatedSection {
+      padding: 1.5rem;
+    }
+  }

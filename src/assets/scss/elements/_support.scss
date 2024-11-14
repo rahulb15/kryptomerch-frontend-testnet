@@ -1,0 +1,277 @@
+/* Support.module.css */
+
+/* Dark Theme Colors */
+.kryptomerch_container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #16160d, #525234);
+    color: #fff;
+  }
+  
+  .kryptomerch_header {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: #0f0f07;
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .kryptomerch_searchInput {
+    width: 100%;
+    padding: 1rem 1rem 1rem 3rem;
+    border-radius: 42px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+  }
+  
+  .kryptomerch_card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+  }
+  
+  .kryptomerch_iconWrapper {
+    background: rgba(255, 255, 255, 0.1);
+  }
+  
+  .kryptomerch_cardTitle {
+    color: #fff;
+  }
+  
+  .kryptomerch_articleCount {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .kryptomerch_articleLink {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Light Theme Colors */
+  .kryptomerch_light_container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #ffffff, #f5f5f5);
+    color: #333;
+  }
+  
+  .kryptomerch_light_header {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .kryptomerch_light_searchInput {
+    width: 100%;
+    padding: 1rem 1rem 1rem 3rem;
+    border-radius: 12px;
+    background: rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #333;
+  }
+  
+  .kryptomerch_light_card {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #333;
+  }
+  
+  .kryptomerch_light_iconWrapper {
+    background: rgba(0, 0, 0, 0.05);
+  }
+  
+  .kryptomerch_light_cardTitle {
+    color: #333;
+  }
+  
+  .kryptomerch_light_articleCount {
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .kryptomerch_light_articleLink {
+    color: #333;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Shared Styles */
+  .kryptomerch_logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    animation: fadeInDown 0.6s ease-out;
+  }
+  
+  .kryptomerch_gradientText {
+    background: linear-gradient(45deg, #ff69b4, #9f7aea);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .kryptomerch_searchBar {
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    animation: fadeInUp 0.6s ease-out;
+  }
+  
+  .kryptomerch_searchIcon {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.5;
+  }
+  
+  .kryptomerch_main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .kryptomerch_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    animation: fadeIn 0.6s ease-out;
+  }
+  
+  .kryptomerch_card {
+    border-radius: 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+  
+  .kryptomerch_card:hover {
+    transform: translateY(-5px);
+    border-color: #ff69b4;
+  }
+  
+  .kryptomerch_cardContent {
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .kryptomerch_iconWrapper {
+    padding: 1rem;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+  }
+  
+  .kryptomerch_icon {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+  }
+  
+  .kryptomerch_cardInfo {
+    flex: 1;
+  }
+  
+  .kryptomerch_cardTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .kryptomerch_articleCount {
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .kryptomerch_arrow {
+    transition: transform 0.3s ease;
+  }
+  
+  .kryptomerch_card:hover .kryptomerch_arrow {
+    transform: translateX(4px);
+  }
+  
+  .kryptomerch_subCategoryContainer {
+    animation: fadeIn 0.6s ease-out;
+  }
+  
+  .kryptomerch_breadcrumb {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .kryptomerch_articleLink {
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .kryptomerch_articleLink:hover {
+    transform: translateX(4px);
+    border-color: #ff69b4;
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .kryptomerch_grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .kryptomerch_header {
+      padding: 1.5rem;
+    }
+    
+    .kryptomerch_logo {
+      font-size: 2rem;
+    }
+  }

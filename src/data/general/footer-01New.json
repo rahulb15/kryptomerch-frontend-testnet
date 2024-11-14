@@ -1,0 +1,167 @@
+{
+    "id": "footer-data-01",
+    "logo-widget": {
+        "logo": [
+            {
+                "src": "/images/logo/logo-white.png",
+                "alt": "logo"
+            },
+            {
+                "src": "/images/logo/logo-dark.png",
+                "alt": "logo"
+            }
+        ],
+        "text": "Kryptomerch.io is redefining Web3 commerce with tools to launch, trade, and monetize NFTs. From our innovative NFT launchpad to customizable marketplaces for digital and physical products, we empower creators and brands to unlock new opportunities in the digital economy."
+    },
+    "newsletter-widget": {
+        "title": "Get The Latest Kryptomerch Updates",
+        "note": "Email is safe. We don't spam."
+    },
+    "quicklink-widget": {
+        "title": "NFTs Marketplace",
+        "menu": [
+            {
+                "id": 1,
+                "text": "All NFTs",
+                "path": "/marketplace/nft-listing"
+            },
+            {
+                "id": 2,
+                "text": "Art",
+                "path": "/marketplace/explore-collections?tab=Art"
+            },
+            {
+                "id": 3,
+                "text": "Collectibles",
+                "path": "/marketplace/explore-collections?tab=Collectibles"
+            },
+            {
+                "id": 4,
+                "text": "Photography",
+                "path": "/marketplace/explore-collections?tab=Photography"
+            },
+            {
+                "id": 5,
+                "text": "Sports",
+                "path": "/marketplace/explore-collections?tab=Sports"
+            },
+            {
+                "id": 6,
+                "text": "Trading Cards",
+                "path": "/marketplace/explore-collections?tab=Trading-cards"
+            },
+            {
+                "id": 7,
+                "text": "Launchpad",
+                "path": "/marketplace/explore-collections?tab=Launchpad"
+            }
+        ]
+    },
+    "information-widget": {
+        "title": "Merchandise",
+        "menu": [
+            {
+                "id": 1,
+                "text": "Explore",
+                "path": "/marketplace/explore-merchandise"
+            },
+            {
+                "id": 2,
+                "text": "Create Merchandise",
+                "path": "/marketplace/create-merchandise"
+            },
+            {
+                "id": 3,
+                "text": "Accessories",
+                "path": "/marketplace/accessories"
+            }
+        ]
+    },
+    "soldout-widget": {
+        "title": "Resources",
+        "menu": [
+            {
+                "id": 1,
+                "text": "Help Center",
+                "path": "/marketplace/help-center"
+            },
+            {
+                "id": 2,
+                "text": "Blog",
+                "path": "/marketplace/blog"
+            },
+            {
+                "id": 3,
+                "text": "How It Works",
+                "path": "/how-it-works"
+            },
+            {
+                "id": 4,
+                "text": "Guidelines",
+                "path": "/guidelines"
+            }
+        ]
+    },
+    "footer-link-widget": {
+        "menu": [
+            {
+                "id": 1,
+                "text": "Terms of Service",
+                "path": "/terms-condition"
+            },
+            {
+                "id": 2,
+                "text": "Privacy Policy",
+                "path": "/privacy-policy"
+            },
+            {
+                "id": 3,
+                "text": "Contact",
+                "path": "/contact"
+            },
+            {
+                "id": 4,
+                "text": "FAQ",
+                "path": "/faq"
+            },
+            {
+                "id": 5,
+                "text": "Intellectual Property Policy",
+                "path": "/intellectual-property-policy"
+            }
+        ]
+    },
+    "copyright_text": "©2024 Copyright Kryptomerch. All Rights Reserved.",
+    "socials": [
+        {
+            "id": 1,
+            "icon": "facebook",
+            "link": "https://www.facebook.com/people/kryptomerchio/100082978494721/"
+        },
+        {
+            "id": 2,
+            "icon": "X",
+            "link": "https://twitter.com/KRYPTOMERCH_IO"
+        },
+        {
+            "id": 3,
+            "icon": "instagram",
+            "link": "https://www.instagram.com/KRYPTOMERCH.IO/"
+        },
+        {
+            "id": 4,
+            "icon": "youtube",
+            "link": "https://www.youtube.com/channel/UC0QtNdjg9OIXIqSrAY52Wmw/"
+        },
+        {
+            "id": 5,
+            "icon": "telegram",
+            "link": "https://t.me/KRYPTOMERCHIO"
+        },
+        {
+            "id": 6,
+            "icon": "discord",
+            "link": "https://discord.com/invite/Zk7E4WKKSC"
+        }
+    ]
+}

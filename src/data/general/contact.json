@@ -1,0 +1,70 @@
+{
+    "id": "contact-data-01",
+    "map": {
+        "lat": -12.043333,
+        "lng": -77.028333,
+        "mapKey": "AIzaSyB3mMuvl8IUlviRZiizBiX7uhsdIqunx94"
+    },
+    "socials": [
+        {
+            "id": 1,
+            "icon": "feather-facebook",
+            "link": "https://facebook.com",
+            "title": "Facebook"
+        },
+        {
+            "id": 2,
+            "icon": "feather-twitter",
+            "link": "https://twitter.com",
+            "title": "Twitter"
+        },
+        {
+            "id": 3,
+            "icon": "feather-instagram",
+            "link": "https://instagram.com",
+            "title": "Instagram"
+        },
+        {
+            "id": 4,
+            "icon": "feather-linkedin",
+            "link": "https://linkedin.com",
+            "title": "linkedin"
+        },
+        {
+            "id": 5,
+            "icon": "feather-mail",
+            "link": "https://mail.com",
+            "title": "mail"
+        },
+        {
+            "id": 6,
+            "icon": "feather-telegram",
+            "link": "https://telegram.org",
+            "title": "Telegram"
+        },
+        {
+            "id": 7,
+            "icon": "feather-youtube",
+            "link": "https://youtube.com",
+            "title": "YouTube"
+        },
+        {
+            "id": 8,
+            "icon": "feather-discord",
+            "link": "https://discord.com",
+            "title": "Discord"
+        },
+        {
+            "id": 9,
+            "icon": "feather-tiktok",
+            "link": "https://tiktok.com",
+            "title": "TikTok"
+        },
+        {
+            "id": 10,
+            "icon": "feather-github",
+            "link": "https://github.com",
+            "title": "GitHub"
+        }
+    ]
+}

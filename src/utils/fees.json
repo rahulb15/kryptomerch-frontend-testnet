@@ -1,0 +1,22 @@
+{
+  "testnet04":
+    {
+      "marketplace-name": "Kryptomerch.io",
+      "marketplace-account": "k:56609bf9d1983f0c13aaf3bd3537fe00db65eb15160463bb641530143d4e9bcf",
+      "currency": {"refSpec":[{"namespace":null,"name":"fungible-v2"}],"refName":{"namespace":null,"name":"coin"}},
+      "min-fee": 0.01,
+      "fee-rate": 0.015,
+      "max-fee": 10000.0,
+      "shared-rate": 0.5
+    },
+  "mainnet01": 
+    {
+      "marketplace-name": "Kryptomerch.io",
+      "marketplace-account": "k:6d3408f25312d5342ea5513707cc18dfd7b2a2c30decd0250d6f6491bbbfcf32",
+      "currency": {"refSpec":[{"namespace":null,"name":"fungible-v2"}],"refName":{"namespace":null,"name":"coin"}},
+      "min-fee": 0.01,
+      "fee-rate": 0.015,
+      "max-fee": 10000.0,
+      "shared-rate": 0.5
+    }
+}
